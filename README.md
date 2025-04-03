@@ -7,6 +7,10 @@
 ✅ Supports **inbound**, **outbound**, or **both** directions  
 ✅ Choose profiles: **Domain, Private, Public**  
 ✅ Prevents duplicate rules by checking existing ones  
+✅ **Multiple selection** of `.exe` files for batch processing  
+✅ **Direct editing** of `.exe` names in the list  
+✅ **Auto-renaming** of duplicate `.exe` files with `_2`, `_3`, etc.  
+✅ **Folder selection** to search for `.exe` files in selected folder(s) and subfolders  
 ✅ Simple & clean UI using `CustomTkinter`  
 ✅ No installation required – just run the `.exe`  
 
@@ -17,7 +21,7 @@
 🔴 **Note:** You must run the program as **Administrator** to modify firewall rules.
 
 ## 🎮 How to Use
-1. Open the program and **select an `.exe` file** you want to block/allow.  
+1. Open the program and **select one or more `.exe` files** to block/allow.  
 2. Choose the **rule name**, **action (Allow/Block)**, and **direction (Inbound/Outbound)**.  
 3. Click **"Create Rule"** – Done! 🎉  
 
@@ -27,3 +31,4 @@ If you want to modify or compile the program yourself, follow these steps:
 ### 1️⃣ Install Dependencies:
 ```bash
 pip install customtkinter
+```
