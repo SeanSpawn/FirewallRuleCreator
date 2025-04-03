@@ -1,5 +1,5 @@
 # © 2025 B0rx. All rights reserved.
-# Version: 1.1.0 Beta / 03.04.2025 /
+# Version: 2.0.0 Beta / 03.04.2025 /
 
 import customtkinter as ctk
 from tkinter import filedialog, messagebox
